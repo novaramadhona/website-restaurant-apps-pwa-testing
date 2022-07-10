@@ -1,0 +1,215 @@
+@media screen and (min-width: 500px) {
+  .post-item__content {
+    padding: 16px 32px 20px 32px;
+  }
+
+  .post-item__title {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .post-item__title {
+    font-size: 18px;
+  }
+
+  .search {
+    flex-direction: column;
+    position: static;
+  }
+
+  .search input {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+}
+
+@media screen and (min-width: 650px) {
+  .app-bar {
+    grid-template-columns: 1fr auto;
+    padding: 8px 40px;
+  }
+
+  .app-bar .app-bar__brand h1 {
+    font-size: 1.5em;
+  }
+
+  .app-bar .app-bar__menu {
+    display: none;
+  }
+
+  .app-bar .app-bar__navigation {
+    position: static;
+    width: 100%;
+  }
+
+  .app-bar .app-bar__navigation ul li {
+    display: inline-block;
+  }
+
+  .app-bar .app-bar__navigation ul li a {
+    display: inline-block;
+    min-width: 44px;
+    min-height: 44px;
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .review__content {
+    margin: 0 auto;
+    max-width: 650px;
+  }
+
+  .detail-post {
+    grid-template-columns: auto 1fr;
+  }
+
+  .restaurant__title {
+    font-size: 23px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .restaurant__info {
+    width: 100%;
+  }
+
+  .detail__information {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+  }
+
+  .post-item {
+    padding: 10px 0.25em;
+  }
+
+  .post-item__content {
+    padding: 16px 32px 10px 32px;
+  }
+  
+  .review {
+    width: 80%;
+    margin: 20px auto 0;
+    padding: 15px;
+  }
+
+  .review__title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .review__content {
+    width: 100%;
+    margin: 3px auto 0;
+  }
+
+  .review__item {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+  }
+
+  .review__name{
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .review__description {
+    font-weight: 300;
+    font-size: 14px;
+  }
+
+  .detail-post {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .hero {
+    background-image: url("/images/hero-image_4-large.jpg");
+  }
+
+  .app-bar .app-bar__brand h1 {
+    font-size: 3em;
+  }
+
+  .app-bar .app-bar__navigation ul li {
+    margin: 0 14px;
+  }
+  .app-bar .app-bar__navigation ul li a {
+    transition: 0.3s opacity;
+  }
+
+  .app-bar .app-bar__navigation ul li a:hover {
+    opacity: 0.5;
+  }
+
+  .post-review {
+    width: 90%;
+    min-width: 800px;
+    padding: 10px;
+  }
+
+  .form-review {
+    margin: 0 40px;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .review {
+    margin: 40px auto 10px;
+  }
+
+  .review__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 20px;
+  }
+
+  .post-item {
+    padding: 0.25em;
+  }
+
+  .post-item__content {
+    padding: 16px 15px 20px 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  main {
+    max-width: 1200px;
+  }
+
+  .posts {
+    grid-column-gap: 15px;
+    grid-row-gap: 10px;
+  }
+
+  .post-item {
+    height: 89%;
+    padding: 0.25em;
+  }
+
+  .post-item__content {
+    padding: 16px 32px 1px 32px;
+  }
+}
